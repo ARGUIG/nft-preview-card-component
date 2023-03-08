@@ -1,0 +1,60 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-size:18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card{
+    width: 20%;
+    max-width: 800px;
+    margin: 55px auto;
+    height: 480px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 0 10px 5px hsl(220, 60%, 3%) ;
+}
+.img{
+    width: 100%;
+    border-radius: 10px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 25px;
+}
+p{
+    font-size: 15px;
+    color:hsl(216, 31%, 60%) ;
+}
+.item1, .item2{
+    display: flex;
+    align-items: center;
+}
+.main-img{
+    margin-right: 4px;
+}
+.parag{
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    margin: 5px 0;
+}
+white{
+    color: white;
+}
+.avatar{
+    width: 30px;
+    box-shadow: 0 0 1px 1px white;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+}
